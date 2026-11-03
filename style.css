@@ -1,0 +1,130 @@
+/* Background color is set to cream with maroon Segoe UI text*/
+body {
+    margin: 0;
+    background-color: #F9E8E0;
+    color:#A23A4A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* All other text is set to Trebuchet MS with a line weight of 1.2*/
+h1,
+h2,
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2;
+}
+/* The h1 in the h1 is roughly 48px and has a 1px spacing between letters*/
+h1 {
+    font-size: 3rem;
+    margin:0;
+    letter-spacing: 1px;
+}
+/* h2 headers are this pink color with a border underneath to separate sections*/
+h2 {
+    font-size: 1.8rem;
+    color: #E78790;
+    border-bottom: 2px solid #F1BEC1;
+    padding: bottom 6px;
+    margin-top:40px;
+}
+/* Paragraph has a 14 px margin on the bottom to space paragraphs*/
+p {
+    margin: 0 0 14px;
+
+}
+/* The color and boldness of absolute links on the page*/
+a {
+    color:#A23A4A;
+    font-weight: bold;
+}
+/* The intro is set with italic*/
+.intro {
+    font-size: 1.2 rem;
+    font-style:italic;
+}
+/* The strong is set with a hot pink color*/
+strong{
+    font-weight: bold;
+    color:#A23A4A;
+}
+/* When hovering over links, the underline disappears*/
+a:hover {
+    text-decoration: none;
+}
+/* The site header is a pink box at the top of the page with white text*/
+.site-header {
+    background-color: #E78790;
+    color:#fff;
+    text-align:center;
+    padding: 40px 20px;
+}
+/* Gives the text in the site header a shadow effect*/
+.site-header h1{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+/* The tagline under the h1 is all capitalized and has a 2px letter spacing*/
+.tagline {
+    margin:8px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:0.9 rem;
+}
+/* The container stretches out the content below the header */
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+/* The card displays the content that is listed inside of a pink box*/
+.card {
+    background-color: #F1BEC1;
+    border: 1px solid #f3c2c7;
+    border-left:6px solid #fff;
+    border-radius: 12px;
+    padding:24px;
+    margin: 32px 0;
+    max-width:420px;
+    box-shadow:0 4px 12px rgba(43,43,43,0.12);
+}
+/* The card's text header*/
+.card h3{
+    margin:0 0 12px;
+    font-size: 1.5rem;
+    color:#A23A4A;
+}
+/* The button's general look before the user hovers over it*/
+.button {
+    display: inline-block;
+    background-color:#A23A4A;
+    color:#fff;
+    padding: 12px 24px;
+    border-radius:8px;
+    text-decoration: none;
+    margin-top:8px;
+}
+/* The card's button design when it is hovered*/
+.button:hover {
+    background-color: #db566c;
+}
+/* The list style and padding from the card*/
+ul {
+    list-style-type:square;
+    padding-left: 24px;
+}
+/* The spacing between each listed item*/
+li {
+    margin-bottom:6px;
+}
+/* The card's text footer. Got rid of the top border from the demo to better fit my page*/
+.site-footer {
+    text-align:center;
+    background-color: #E78790;
+    font-size:0.9rem;
+    color:#fff;
+    padding:20px;
+}
+
+
+
+
